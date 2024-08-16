@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Spline+Sans:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Spline+Sans:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+
+
+}
+body{
+    font-family:"spline sans" sans-serif;
+    color: #777;
+    line-height: 1.7;
+    max-height: 100vh;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 38%, rgba(0,212,255,1) 100%);
+ }
+
+ #navbarSupportedContent{
+margin-left: 150px;
+   
+ }
+ .navbar form{
+    margin-left: 80px;
+ }
+.nav-item a{
+   color: rgb(101, 226, 18);
+   text-decoration: none; 
+   font-weight: 600;
+  
+ }
+.nav-item a:hover{
+    color: aqua;
+}
+.navbar-nav{
+    margin-right:180px;
+}
+.navbar{
+    background-color: beige;
+}
+#carouseldemo{
+    position: relative;
+    z-index: 9;
+}
+
+
+#carousel{
+   
+}
+
+.carousel-image img{
+
+}
+
+.caption-1{
+    margin-bottom:10px; 
+     font-size: 30px;
+    font-family: "Sofia", sans-serif; 
+     
+   }
+.caption-1 h6{
+    color: black;
+    color: #0e7eee;
+    
+    }
+    .caption-1 h1{
+        color: black;
+        color: #ffffff;
+        margin-right:40px;
+       
+    }  
+
+  
+.caption-2 h6{
+   
+color: #ffffff;
+text-shadow:0 0 50px #070707;
+ font-family: "Sofia", sans-serif;
+ }
+ .caption-2 {
+    color: #FFF;
+    font-family: "Sofia", sans-serif;
+ }
+ .caption-2 .btn-warning{
+    padding: 4px;
+    font-family: "Sofia", sans-serif;
+    
+ }
+
+ 
+.caption-3{
+   
+    font-family: "Sofia", sans-serif;
+    color: #04010c;
+   }
+   .caption-3 .btn-warning{
+  
+   
+    font-family: "Sofia", sans-serif;
+    color: #04010c;
+    
+ }
+ .caption-3 h6{
+  
+    color: #04010c;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+ font-family: "Sofia", sans-serif;
+ }
+ .carousel-control-prev,
+ carousel-control-next{
+    margin: auto;
+ }
+
+
+/* 
+ ABOUT */
+
+#about{
+    max-height: 100;
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+}
+#about .col-lg-5{
+    text-align: justify;
+}
+
+/* menu */
+
+#menu{
+max-height: 100;
+margin-bottom: -100px;
+}
+.intro-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.intro-text p{
+    width: 500px;
+    margin: auto;
+    
+}
+
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    color: #04010c;
+    margin-left:8px ;
+    margin-right:8px ;
+    border-radius: 100px;
+
+}
+#menu .nav-pills .nav-link.active{
+    background-color: orangered;
+    color: #ffffff;
+}
+.stars{
+    color: orangered;
+}
+
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover{
+    box-shadow:0 10px 40px rgb(0, 0, 0) ;
+   }
+
+.menu-content{
+
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#myTab{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+#features{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/feature-1.jpg);
+background-size: cover;
+
+/* height: 80vh; */
+
+}
+
+.intro-text-1{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#features.intro-text-1 p{
+    /* width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-content: center; */
+    
+}
+.features{
+    border: 2px solid rgba(255, 255, 255, 0.29);
+    margin-top: 100px;
+}
+.feature-icon{
+align-content: center;
+text-align: center;
+color: #fff;
+justify-content: center;
+
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+  
+}
+
+.feature-items{
+   margin-bottom: 40px;
+}
+
+.features{
+    transition: all 0.4s;
+}
+.features:hover{
+    box-shadow:0 10px 40px rgb(0, 0, 0) ;
+   }
+
+/* team */
+
+.team-members img{
+border-radius: 500px;
+box-shadow: -5px -5px 0 orangered;
+margin-top: 20px;
+display: block;
+margin-left:auto;
+margin-right:auto;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+#review{
+    margin-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/reviewbg.webp);
+    background-size:cover;
+    max-width: 100;
+
+}
+.quote{
+    color: orangered;
+    font-size: 65px;
+}
+
+/* reservation */
+
+.bg-footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 38%, rgba(0,212,255,1) 100%);
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    padding-top:6px;
+    font-size: 20px;
+    height: 34px;
+    width: 34px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
